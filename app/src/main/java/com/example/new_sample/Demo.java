@@ -6,6 +6,11 @@ public class Demo {
     String name,dept;
     public Demo(){}
 
+    public Demo(int a,int b){
+        id=a;
+        code=b;
+    }
+
     public Demo(int id,int code,String name,String  dept)
     {
         this.id=id;
